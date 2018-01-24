@@ -1,0 +1,375 @@
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 100%;
+    background: url('../imgs/wanxia.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+nav {
+    background: transparent;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+}
+
+nav ul {
+    float: right;
+    font-size: 0;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.logo a {
+    padding: 20px;
+}
+
+.logo:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #000;
+    color: rgb(64, 91, 180);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #000;
+    color: rgb(64, 91, 180);
+}
+
+.banner,
+.article-banner {
+    position: relative;
+    background-color: transparent;
+    height: 700px;
+    text-align: center;
+}
+
+.banner .inner,
+.article-banner .inner {
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+    text-align: center;
+}
+
+.banner .inner h1 {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.banner .inner .btn {
+    margin: 30px auto;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.banner .inner .btn:hover {
+    background-color: rgb(224, 82, 57);
+    border: 2px solid rgb(207, 209, 59);
+    font-size: 22px;
+}
+
+.more {
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.more a:hover {
+    color: blue;
+}
+
+
+/* person information */
+
+
+/* fist part--info */
+
+.personInfo {
+    width: 100%;
+    background-color: rgb(53, 212, 146);
+    height: 700px;
+    padding-top: 30px;
+}
+
+.personInfo .info,
+.personInfo .icons {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.personInfo .info .hr {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 40px 0;
+}
+
+.personInfo .icons .icon-item {
+    display: inline-block;
+    background: rgb(59, 187, 238);
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 40px;
+}
+
+.icon-item i {
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+/* second part--programs */
+
+.programs {
+    width: 100%;
+    background: rgb(71, 69, 83);
+    font-size: 0;
+}
+
+.programs .program-item {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.programs .program-item:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.programs .program-item .image {
+    width: 45%;
+    float: left;
+}
+
+.programs .program-item .article {
+    width: 55%;
+    float: left;
+    text-align: center;
+}
+
+.article h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.article p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* .programs .program-item:after {
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* skills */
+
+.skills {
+    background-color: #4a304d;
+    text-align: center;
+    padding: 5px;
+}
+
+.skills .skills-title,
+.skills .skills-list {
+    margin: 20px auto;
+    margin-top: 40px;
+    width: 60%;
+}
+
+.skills .skills-title h2,
+.skills .skills-title p {
+    margin: 10px auto;
+    width: 60%;
+}
+
+.skills .skills-item {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 50%;
+    padding: 40px 20px;
+    float: left;
+}
+
+.skills .skills-item:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.skills .skills-item:nth-child(3) {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.skills .skills-item:nth-child(6) {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.skills .skills-item:nth-child(1) {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+.skills .skills-item:nth-child(4) {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+.skills .skills-item:nth-child(5) {
+    background-color: rgba(255, 255, 255, 0.05)
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #494848;
+    text-align: center;
+}
+
+footer .contact {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contact li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sb-overlay {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 99;
+}
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    bottom: 0;
+    background-color: #333;
+    z-index: 100;
+}
+
+#sidebar li {
+    text-align: center;
+}
+
+#sidebar li a {
+    display: block;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+#sidebar li a:hover {
+    background-color: #444;
+}
+
+.backtop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ddd;
+    display: none;
+}
+
+.backtop:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* article style */
+
+.article-banner {
+    height: 400px;
+}
+
+.article-banner .inner h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.atl-content {
+    background: #aaa;
+}
+
+.article {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.atl-hr {
+    background-color: #666;
+    height: 1px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.article p {
+    text-indent: 2em;
+    line-height: 1.5em;
+}
