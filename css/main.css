@@ -356,7 +356,7 @@ footer .contact li {
     background: #aaa;
 }
 
-.article {
+.atl-article {
     width: 80%;
     padding: 20px;
     margin: 0 auto;
@@ -369,7 +369,7 @@ footer .contact li {
     margin: 10px auto;
 }
 
-.article p {
+.atl-article p {
     text-indent: 2em;
     line-height: 1.5em;
 }
